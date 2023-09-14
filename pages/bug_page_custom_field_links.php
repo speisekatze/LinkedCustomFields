@@ -137,6 +137,8 @@ var refreshLinkedValues = function(fieldId, fieldValue) {
 	}
 
 	targetFieldRef.val(savedValues[targetFieldId]);
+	/* Update JQueryChosen on new Data */
+	$('#custom_field_'+targetFieldId).trigger('chosen:updated');
 };
 
 jQuery(document).ready(function() {
