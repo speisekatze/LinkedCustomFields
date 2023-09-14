@@ -149,7 +149,7 @@ foreach( $t_custom_fields as $t_custom_field ) {
 										<!--suppress HtmlFormInputWithoutLabel -->
 										<select id="custom_field_linked_values_<?php echo $t_idx?>"
 												name="custom_field_linked_values_<?php echo $t_idx?>[]"
-												class="lcf_target"
+												class="lcf_target not-chosen-plugin"
 												multiple="multiple">
 										</select>
 										<button type="button"
